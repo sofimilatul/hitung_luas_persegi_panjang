@@ -1,50 +1,22 @@
+#include <iostream>
+using namespace std;
 
-==================================================
-TUGAS INFORMATIKA KELAS XII
-PERANCANGAN ALGORITMA (PSEUDOCODE)
-==================================================
+int main (){
+  
+//DEKLARASI
+float panjang,lebar,luas;
+cout << "masukan nilai panjang :" <<endl;
+cin >> panjang;
+cout << "masukan nilai lebar : " <<endl;
+cin >> lebar;
 
-A. IDENTITAS SISWA
+//PROSES 
+cout << "hitung luas persegi panjang : " <<endl;
+  
+luas = panjang* lebar;
 
-Nama Lengkap :Sofi Milatul Fikriyah
-Kelas        :XII-10
-Nomor Absen  :34
-Username GitHub :sofimilatul
-
-B. JUDUL PROGRAM
-
-Program Menghitung Luas Persegi Panjang
-
-C. DESKRIPSI MASALAH
-
-Program ini dibuat untuk menghitung luas persegi panjang berdasarkan nilai panjang dan lebar yang dimasukkan oleh pengguna 
-
-D. TUJUAN PROGRAM
-
-Membantu pengguna menghitung luas persegi panjang secara cepat dan tepat.
-
-E. ANALISIS INPUT, PROSES, DAN OUTPUT
-
-1. INPUT:
-   -panjang persegi panjang (p)
--lebar persegi panjang (l)
-
-2. PROSES:
-   -Menghitung luas persegi panjang.
- -Rumus: luas = panjang * lebar
-
-3. OUTPUT:
-   -Menampilkan hasil luas persegi panjang.
-
-F. ALGORITMA / PSEUDOCODE
-
-MULAI
-
-1.Deklarasikan variabel panjang, lebar, dan luas.
-2.Masukan nilai panjang.
-3.Masukan nilai lebar.
-4.Hitung luas = panjang * lebar.
-5.Tampilkan nilai luas.
-
-SELESAI
+//OUTPUT
+cout << "tampilkan hasil luas persegi panjang : " <<luas<<endl;
+   
+}
 
